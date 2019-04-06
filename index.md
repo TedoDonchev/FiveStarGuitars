@@ -6,5 +6,7 @@ layout: page
 title: Guitar Shop
 ---
 
+# Hello there!
 
+This is not an empty paragraph.
 
