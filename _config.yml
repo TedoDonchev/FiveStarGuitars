@@ -17,7 +17,7 @@ title: Guitar Shop
 email: guitar_shop@gmail.com
 description: This is a new site!
 destination: docs
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "GuitarShop" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: GuitarShop
 github_username: TedoDonchev
