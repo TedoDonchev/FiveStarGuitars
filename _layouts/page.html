@@ -6,13 +6,24 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
   </head>
   <body>
-   
-    <h1>{{ page.title }}</h1>
-    <section>
+
+    <header class="site-header">
+        <h1><a href="">{{ page.title }}</a></h1>
+        {% include navigation.html %}
+
+
+    </header>
+    
+    
+    
+    
+    <main class="site-content">
       {{ content }}
       
-    </section>
-    <footer>
+    </main>
+    
+    <footer class="site-footer">
+
       &copy; Guitar Shop
     </footer>
   </body>

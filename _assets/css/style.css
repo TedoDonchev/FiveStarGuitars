@@ -1,9 +1,21 @@
+@import url("nav.css");
+
 :root{
-   --color-main: #900;
-   --color-main-text: #FFF;
+   --color-main: #FFF;
+   --color-main-text: #000;
+}
+
+*{
+   box-sizing: border-box;
+}
+
+html, body{
+   margin: 0;
+   padding: 0;
 }
 
 body{
    background: var(--color-main);
    color: var(--color-main-text, #000);
 }
+

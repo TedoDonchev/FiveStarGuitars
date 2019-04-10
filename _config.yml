@@ -24,7 +24,7 @@ twitter_username: GuitarShop
 github_username: TedoDonchev
 
 
-exclude: [_assets]
+exclude: [_assets, node_modules, Gemfile, Gemfile.lock, gulpfile.js, package.json, package-lock.json, README.md]
 # Build settings
 markdown: kramdown
 
