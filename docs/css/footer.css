@@ -1,0 +1,72 @@
+@import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css");
+
+footer{
+    background-color: var(--background-footer);
+    color: var(--footer-text-color);
+    font-size: var(--footer-font-size);
+    font-family: var(--font-family-footer);
+}
+
+.footer-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+footer > div{
+    padding: 0.5rem;
+}
+
+.support li,
+.about li,
+.footer-nav li,
+.contact-info li{
+    list-style: none;
+    padding-bottom: 0.2rem;
+    color: #5e021f;
+}
+
+.support li a,
+.about li a ,
+.footer-nav li a,
+.contact-info li a{
+    text-decoration: none;
+    color: #5e021f;
+}
+
+.support > ul,
+.about > ul,
+.footer-nav > ul,
+.contact-info > ul{
+    padding-right: 5rem;
+}
+
+
+.support h4,
+.about h4,
+.footer-nav h4,
+.contact-info h4{
+    padding-left: 2rem;
+    font-size: 0.8rem;
+}
+
+.support,
+.about,
+.footer-nav,
+.contact-info{
+    align-self: center;
+    justify-self: center;
+}
+
+
+.support li:hover a,
+.about li:hover a,
+.footer-nav li:hover a{ 
+    color: black;
+}
+
+
+.footer-copyright p{
+    text-align: center;
+    border-top: 1.5px solid black;
+    padding-top: 1rem;
+}

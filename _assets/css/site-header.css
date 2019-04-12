@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+
+.site-header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #5e021f;
+    min-width: 100%;
+    
+    /* overflow: auto; */
+}
+
+/* .site-header img{
+    align-self: center;
+    justify-self: center;
+    
+} */
+
+.site-header h1{
+    /* padding-left: 1rem; */
+    font-family: Great Vibes;
+    width: 40%;
+}
+
+.site-header h1 a{
+    text-decoration: none;
+    color: #FFE4C4;
+}

@@ -8,8 +8,9 @@
   <body>
 
     <header class="site-header">
-        <h1><a href="">{{ page.title }}</a></h1>
-        {% include navigation.html %}
+      <h1><a href="/home">Five-Star Guitars</a></h1>
+      <!-- <img src="../images/logo.png" alt="" width="60px" height="70px"> -->
+      {% include navigation.html %}
 
 
     </header>
@@ -23,8 +24,8 @@
     </main>
     
     <footer class="site-footer">
-
-      &copy; Guitar Shop
+      {% include footer.html %}
+      
     </footer>
   </body>
 </html>
