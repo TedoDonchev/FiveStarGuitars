@@ -1,12 +1,23 @@
 <nav class="main-nav">
-    <ul>
+    <ul class="outer-ul">
         {% for page in site.pages %}
         {% if page.url != '/feed.xml' and page.url != "/" %}
         <li>
             <a href="{{ page.url }}">
                 <span class="title">{{ page.title }}</span>
                 <span class="date">{{ page.date | date_to_string }}</span>
+                
             </a>
+            {% if page.url == '/products/' %}
+                <ul class="inner-ul">
+                
+                    <li><a href="#">Guitars</a></li>
+                    <li><a href="#">Basses</a></li>
+                    <li><a href="#">Amps</a></li>
+                    <li><a href="#">Picks</a></li>
+                
+                </ul>
+            {% endif %}
         </li>
         {% endif %}
         {% endfor %}

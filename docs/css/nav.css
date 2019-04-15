@@ -3,7 +3,7 @@ nav{
     width: 40%;
 }
 
-nav ul{
+nav .outer-ul{
     display: flex;
     justify-content: center;
     margin-right: 3rem;
@@ -30,16 +30,42 @@ nav a{
     font-weight: bold;
 }
 
-nav li:hover,
-nav li:hover a{ 
+.outer-ul > li:nth-child(1) { order: 3; }
+.outer-ul > li:nth-child(2) { order: 4; }
+.outer-ul > li:nth-child(3) { order: 1; }
+.outer-ul > li:nth-child(4) { order: 2; }
+
+.outer-ul > li:hover,
+.outer-ul > li:hover > a{ 
     color: #5e021f;
     background-color: #FFE4C4;
 }
 
-ul li:nth-child(1) { order: 3; }
-ul li:nth-child(2) { order: 4; }
-ul li:nth-child(3) { order: 1; }
-ul li:nth-child(4) { order: 2; }
 
+.inner-ul{
+    display: none;
+    position: absolute;
+    padding: 0 2rem 0 0;
+    top: 4rem;
+}
 
+.inner-ul > li{
+    margin: 0.2rem 0.4rem;
+    width: 150%;
+    background-color: #5e021f
+}
 
+.outer-ul > li:nth-child(4):hover .inner-ul{
+    display: block;
+}
+
+.inner-ul > li:hover,
+.inner-ul > li:hover > a{ 
+    color: #5e021f;
+    background-color: #FFE4C4;
+    
+}
+
+.inner-ul > li:hover{
+    border: 2px solid #5e021f;
+}

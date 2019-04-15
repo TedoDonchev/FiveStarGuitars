@@ -9,7 +9,7 @@ footer{
 
 .footer-info{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 25% 25% 25% 25%;
 }
 
 footer > div{
@@ -69,4 +69,12 @@ footer > div{
     text-align: center;
     border-top: 1.5px solid black;
     padding-top: 1rem;
+}
+
+
+.support ul,
+.about ul,
+.footer-nav ul, 
+.contact-info ul{
+    padding: 0;
 }
