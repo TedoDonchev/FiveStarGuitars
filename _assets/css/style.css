@@ -2,6 +2,7 @@
 @import url("site-header.css");
 @import url("footer.css");
 @import url("products.css");
+@import url("guitars.css");
 
 
 
@@ -26,7 +27,8 @@
 html, body{
    margin: 0;
    padding: 0;
-  
+   /* line-height: 1.5; */
+
    font-size: var(--font-size-global);
 }
 

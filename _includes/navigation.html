@@ -1,7 +1,7 @@
 <nav class="main-nav">
     <ul class="outer-ul">
         {% for page in site.pages %}
-        {% if page.url != '/feed.xml' and page.url != "/" %}
+        {% if page.url != '/feed.xml' and page.url != "/" and page.url != '/guitars/' and page.url != '/basses/' and page.url != '/amps/' and page.url != '/picks/' %}
         <li>
             <a href="{{ page.url }}">
                 <span class="title">{{ page.title }}</span>
@@ -11,10 +11,10 @@
             {% if page.url == '/products/' %}
                 <ul class="inner-ul">
                 
-                    <li><a href="#">Guitars</a></li>
-                    <li><a href="#">Basses</a></li>
-                    <li><a href="#">Amps</a></li>
-                    <li><a href="#">Picks</a></li>
+                    <li><a href="/guitars/">Guitars</a></li>
+                    <li><a href="/basses/">Basses</a></li>
+                    <li><a href="/amps/">Amps</a></li>
+                    <li><a href="/picks/">Picks</a></li>
                 
                 </ul>
             {% endif %}

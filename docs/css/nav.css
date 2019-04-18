@@ -52,7 +52,7 @@ nav a{
 .inner-ul > li{
     margin: 0.2rem 0.4rem;
     width: 150%;
-    background-color: #5e021f
+    background-color: #5e021f;
 }
 
 .outer-ul > li:nth-child(4):hover .inner-ul{
