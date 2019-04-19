@@ -72,13 +72,9 @@ nav a {
   justify-content: space-around;
   background-color: #5e021f;
   min-width: 100%;
+  position: fixed;
   /* overflow: auto; */ }
 
-/* .site-header img{
-    align-self: center;
-    justify-self: center;
-    
-} */
 .site-header h1 {
   /* padding-left: 1rem; */
   font-family: Great Vibes;
@@ -211,6 +207,7 @@ footer > div {
   margin: 0; }
 
 .gallery-list {
+  margin: 4rem;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly; }
@@ -241,13 +238,23 @@ footer > div {
   position: absolute;
   top: 50%;
   width: 100%;
+  height: 50%;
   /* margin: 1rem; */
   background-color: white;
   opacity: 0.9;
   padding: 0 0.5rem; }
 
 .details h3 {
-  text-align: center; }
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 1.2rem; }
+
+.details span {
+  display: block;
+  text-align: center;
+  font-size: 1rem;
+  margin: 0.5rem; }
 
 .gallery-list li:hover .details {
   display: block;
@@ -301,13 +308,36 @@ footer > div {
 
 .gallery h2 {
   margin: 0;
-  padding: 2rem;
+  padding-top: 3rem;
   text-align: center;
   font-size: 2.5rem; }
 
 .gallery p {
   text-align: center;
   font-size: 1.5rem; }
+
+.home {
+  background-image: url("../../images/home-bgrd-2.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  padding: 10rem; }
+
+.home h1 {
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 1000; }
+
+.home h1 span {
+  color: #009EEF;
+  font-family: Great Vibes; }
+
+.home p {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold; }
 
 :root {
   --color-main-text: #000;
@@ -328,8 +358,11 @@ html, body {
   font-size: var(--font-size-global); }
 
 body {
-  background-color: #FFE4C4;
+  background-color: var(--background-main);
   color: var(--color-main-text, #000); }
+
+main {
+  padding-top: 2rem; }
 
 @media only screen and (max-width: 600px) {
   body, html {

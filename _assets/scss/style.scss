@@ -3,7 +3,7 @@
 @import "footer";
 @import "products";
 @import "guitars";
-
+@import "home";
 
 
 
@@ -31,8 +31,12 @@ html, body{
 }
 
 body{
-   background-color: #FFE4C4;
+   background-color: var(--background-main);
    color: var(--color-main-text, #000);
+}
+
+main{
+   padding-top: 2rem;
 }
 
 

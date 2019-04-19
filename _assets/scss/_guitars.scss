@@ -7,6 +7,7 @@
 }
 
 .gallery-list{
+    margin: 4rem;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
@@ -41,18 +42,26 @@
     position: absolute;
     top: 50%;
     width: 100%;
+    height: 50%;
     /* margin: 1rem; */
     background-color: white;
     opacity: 0.9;
     padding: 0 0.5rem;
+    
 }
 
 .details h3{
+    padding: 0;
+    margin: 0;
     text-align: center;
+    font-size: 1.2rem;
 }
 
-.details p{
-
+.details span{
+    display: block;
+    text-align: center;
+    font-size: 1rem;
+    margin: 0.5rem;
 }
 
 .gallery-list li:hover .details{
@@ -107,7 +116,7 @@
 
 .gallery h2{
     margin: 0;
-    padding: 2rem;
+    padding-top: 3rem;
     text-align: center;
     font-size: 2.5rem;
 }
@@ -115,6 +124,4 @@
 .gallery p{
     text-align: center;
     font-size: 1.5rem;
-   
-    
 }

@@ -1,0 +1,30 @@
+.home{
+    background-image: url("../../images/home-bgrd-2.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    height: 100vh;
+    width: 100vw;
+    padding: 10rem;
+}
+
+.home h1{
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 1000;
+}
+
+.home h1 span{
+    color: #009EEF;
+    font-family: Great Vibes;
+}
+
+.home p{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
