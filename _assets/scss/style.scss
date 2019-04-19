@@ -1,19 +1,17 @@
-@import url("nav.css");
-@import url("site-header.css");
-@import url("footer.css");
-@import url("products.css");
-@import url("guitars.css");
+@import "nav";
+@import "site-header";
+@import "footer";
+@import "products";
+@import "guitars";
 
 
 
 
 :root{
-   --color-main: #FFF;
    --color-main-text: #000;
    --font-size-global: 18px;
 
-
-
+   --background-main: #FFE4C4;
    --background-footer: #D5B998;
    --footer-text-color: #000;
    --footer-font-size: 18px;
@@ -33,7 +31,7 @@ html, body{
 }
 
 body{
-   background: var(--color-main);
+   background-color: #FFE4C4;
    color: var(--color-main-text, #000);
 }
 
