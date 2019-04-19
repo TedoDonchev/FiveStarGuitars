@@ -3,7 +3,7 @@
         {% for page in site.pages %}
         {% if page.url != '/feed.xml' and page.url != "/" and page.url != '/guitars/' and page.url != '/basses/' and page.url != '/amps/' and page.url != '/picks/' %}
         <li>
-            <a href="{{ GuitarShop/page.url }}">
+            <a href="{{ page.url }}">
                 <span class="title">{{ page.title }}</span>
                 <span class="date">{{ page.date | date_to_string }}</span>
                 
@@ -11,8 +11,8 @@
             {% if page.url == '/products/' %}
                 <ul class="inner-ul">
                 
-                    <li><a href="guitars/">Guitars</a></li>
-                    <li><a href="basses/">Basses</a></li>
+                    <li><a href="/guitars/">Guitars</a></li>
+                    <li><a href="/basses/">Basses</a></li>
                     <li><a href="/amps/">Amps</a></li>
                     <li><a href="/picks/">Picks</a></li>
                 
@@ -21,5 +21,6 @@
         </li>
         {% endif %}
         {% endfor %}
+        <li href="asd">asdasda</li>
     </ul>
 </nav>
