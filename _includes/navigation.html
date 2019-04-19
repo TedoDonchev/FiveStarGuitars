@@ -3,7 +3,7 @@
         {% for page in site.pages %}
         {% if page.url != '/feed.xml' and page.url != "/" and page.url != '/guitars/' and page.url != '/basses/' and page.url != '/amps/' and page.url != '/picks/' %}
         <li>
-            <a href="{{ /page.url }}">
+            <a href="{{ page.url }}">
                 <span class="title">{{ page.title }}</span>
                 <span class="date">{{ page.date | date_to_string }}</span>
                 
