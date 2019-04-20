@@ -10,9 +10,10 @@
 }
 
 .info-about{
-    padding: 3rem;
+    padding: 4rem;
     display: grid;
     grid-template-columns: 30% 30% 30%;
+    justify-content: center;
 }
 
 .first-text, .second-text{
@@ -37,10 +38,12 @@
 
 .first-img{
     justify-self: right;
+    border-radius: 15px;
 }
 
 .second-img{
     justify-self: left;
+    border-radius: 15px;
 }
 
 .first-text, .second-text{
