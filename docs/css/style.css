@@ -423,7 +423,8 @@ input[type="text"], textarea, .btn {
   height: 90%;
   position: relative;
   overflow: hidden;
-  justify-self: center; }
+  justify-self: center;
+  align-self: center; }
 
 .first-img {
   justify-self: right;
