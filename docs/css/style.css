@@ -1,5 +1,6 @@
 @import url("https://use.fontawesome.com/releases/v5.8.1/css/all.css");
 @import url("https://fonts.googleapis.com/css?family=Great+Vibes");
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
 nav {
   align-items: center;
   width: 40%; }
@@ -395,6 +396,45 @@ input[type="text"], textarea, .btn {
   background-color: #009EEF;
   color: #FFF;
   border: 5px solid #009EEF; }
+
+.about-div {
+  padding-top: 5rem; }
+
+.about-div h2 {
+  text-align: center;
+  font-size: 2.5rem; }
+
+.info-about {
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: 30% 30% 30%; }
+
+.first-text, .second-text {
+  grid-column-start: span 2; }
+
+.first-img img, .second-img img {
+  width: 100%;
+  height: 100%; }
+
+.first-img, .second-img {
+  border: 5px solid #5e021f;
+  width: 90%;
+  height: 90%;
+  position: relative;
+  overflow: hidden;
+  justify-self: center; }
+
+.first-img {
+  justify-self: right; }
+
+.second-img {
+  justify-self: left; }
+
+.first-text p, .second-text p {
+  line-height: 1.3;
+  font-family: Indie Flower;
+  text-align: left;
+  font-size: 1.5rem; }
 
 :root {
   --color-main-text: #000;
